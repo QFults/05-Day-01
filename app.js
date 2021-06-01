@@ -30,7 +30,17 @@
 
 const fs = require('fs')
 
-fs.writeFile('some.txt', 'Hello World!', err => {
-  if (err) { console.log(err) }
-  console.log('Success!')
-})
+// fs.writeFile('some.txt', 'Goodbye World!', err => {
+//   if (err) { console.log(err) }
+//   console.log('Success!')
+// })
+
+// fs.appendFile('some.txt', ' Hello World!', err => {
+//   if (err) { console.log(err) }
+//   console.log('Success!')
+// })
+
+// fs.readFile('some.txt', 'utf8', (err, data) => {
+//   if (err) { console.log(err) }
+//   console.log(data)
+// })
